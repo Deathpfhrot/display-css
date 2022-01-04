@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+header {
+    height: 100vh;
+    background: url(../img/) no-repeat center/cover; /*--Shorthand*/
+    color: #fff;
+}
+
+h1{
+    padding: 20px 50px;
+}
+
+header section{
+    width: 17%;
+    margin: 0 auto 10% auto; /*oben recht unter links*/
+    padding-top: 15%;
+    text-align: center;
+}
+header section a{
+    margin-bottom: 20px;
+}
+header section a{
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+header section a:hover{
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+}
+
+header nav ul{
+    text-align: right;
+}
+
+header nav ul li a{
+    color: #fff;
+    font-size: 1.1rem;
+    padding-right: 8%;
+}
+
+/* header done*/
+
+main{
+    text-align: center;
+}
+
+main section {
+    width: 23%;
+    margin: 0 auto;
+}
+
+main section h3{
+    margin: 12%;
+}
+
+main section article{
+    width: 30%;
+    border: 5px double black;
+    margin: 30% auto;
+    height: 10vh;
+}
+
+main section article p{
+    padding: 8% 10%;
+}
+
+/* main done */
+
+footer {
+    background: rgba(29, 30, 34, 0.461);
+    color: #fff;
+}
+
+footer p{
+    width: 40%;
+    padding: 3% 0 3% 2%;
+}
+
+footer>section:nth-of-type(1) {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: .5% 2%;
+    margin-left: 2%;
+}
+
+footer nav{
+    text-align: right;
+    padding-bottom: 2%;
+}
+
+footer nav a{
+    color: #fff;
+    margin: 2% 2%;
+}

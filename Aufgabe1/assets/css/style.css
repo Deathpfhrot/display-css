@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+nav{
+    background-color: #41242d;
+    opacity: 0.8;
+    text-align: right;
+}
+
+li{
+    display: inline-block;
+    padding: 22px 16px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
